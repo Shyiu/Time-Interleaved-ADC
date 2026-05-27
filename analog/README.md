@@ -42,8 +42,7 @@ Full assembled design connecting all blocks, with final GDS and LEF for handoff.
 - `chore` — cleanup, file moves, config
 
 ## Scopes
-- `csi_cell` — current-starved inverter block
-- `bias_mirror` — current mirror block
+- `cell` — [describe cell]
 - `top` — top-level assembly
 - `sim` — simulations
 - `docs` — documentation
