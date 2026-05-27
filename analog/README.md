@@ -28,3 +28,22 @@ Individual circuit blocks, each self-contained with schematic, layout, and simul
 
 ## top/
 Full assembled design connecting all blocks, with final GDS and LEF for handoff.
+
+# Committing Guidelines
+
+## Format
+`type(scope): short description`
+
+## Types
+- `feat` — new circuit block, schematic, or layout
+- `fix` — DRC fix, LVS fix, simulation error
+- `sim` — new or updated testbench
+- `docs` — README, comments, documentation
+- `chore` — cleanup, file moves, config
+
+## Scopes
+- `csi_cell` — current-starved inverter block
+- `bias_mirror` — current mirror block
+- `top` — top-level assembly
+- `sim` — simulations
+- `docs` — documentation
