@@ -3,22 +3,22 @@
 analog/
 ├── blocks/
 │   ├── cell/ 
-│   │   ├── cell.xschem
+│   │   ├── cell.sch
 │   │   ├── cell.gds
 │   │   └── sim/
-│   │       ├── tb_cell.xschem
+│   │       ├── tb_cell.sch
 │   │       └── tb_cell.spice
 |   └── another_cell/
-│       ├── another_cell.xschem
+│       ├── another_cell.sch
 │       ├── another_cell.gds
 │       └── sim/
-│           ├── tb_another_cell.xschem
+│           ├── tb_another_cell.sch
 │           └── tb_another_cell.spice
 ├── top/
 │   └── top.gds
 │   └── top.lef
 |   └── sim/
-│       └── tb_top.xschem
+│       └── tb_top.sch
 │       └── tb_top.spice
 └── README.md
 ````
